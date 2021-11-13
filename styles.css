@@ -19,14 +19,14 @@ body {
   min-height: 100vh; }
 
 .card {
-  width: 45vw;
+  width: 50vw;
   height: 50vh;
   background-color: white;
   border-radius: 1rem;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(6, 1fr);
+  grid-template-rows: 1fr;
   position: relative;
   overflow: hidden; }
 
@@ -46,8 +46,49 @@ body {
 
 .box {
   position: absolute;
-  left: 435px;
+  left: 388px;
   top: 400px; }
+
+.text {
+  grid-column: 2;
+  margin-left: 1rem;
+  margin-right: 2rem;
+  border: 0; }
+
+.button {
+  cursor: pointer;
+  background: url("images/icon-arrow-down.svg") no-repeat;
+  width: 10px;
+  height: 10px;
+  margin-left: 3rem;
+  display: inline-block; }
+
+.rotate {
+  transform: rotate(180deg); }
+
+h1 {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  grid-column: 1; }
+
+.toggle {
+  margin-bottom: 1rem;
+  margin-right: 2rem; }
+
+hr {
+  width: 90%;
+  border: 0;
+  height: 1px;
+  background-color: #e7e7e9;
+  margin-bottom: 1rem; }
+
+.invite {
+  grid-row: 1;
+  grid-column: 2;
+  display: inline-block; }
+
+.upload {
+  display: inline-block; }
 
 @media (max-width: 1000px) {
   .card {
@@ -72,4 +113,20 @@ body {
     left: 15%;
     top: -130px; }
   .box {
-    display: none; } }
+    display: none; }
+  h1 {
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+    grid-column: 2;
+    text-align: center; }
+  .text {
+    grid-column: 2;
+    margin-right: 2.5rem;
+    border: 0;
+    display: inline; }
+  .toggle {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-right: 2.2rem; }
+  hr {
+    width: 100%; } }
