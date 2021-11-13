@@ -78,8 +78,10 @@ body {
 }
 
 #textA, #textB, #textC, #textD, #textE {
-    display: inline-block;
     margin-bottom: 1rem;
+    color:hsl(240, 6%, 50%);
+    font-size: 14px;
+    width: 24rem;
 }
 
 #buttonB {

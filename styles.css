@@ -65,8 +65,10 @@ body {
   transition: all .3s; }
 
 #textA, #textB, #textC, #textD, #textE {
-  display: inline-block;
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+  color: #787887;
+  font-size: 14px;
+  width: 24rem; }
 
 #buttonB {
   margin-left: 3.1rem; }
