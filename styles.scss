@@ -74,6 +74,28 @@ body {
     height: 10px;
     margin-left: 3rem;
     display: inline-block;
+    transition: all .3s;
+}
+
+#textA, #textB, #textC, #textD, #textE {
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+#buttonB {
+    margin-left: 3.1rem;
+}
+
+#buttonC {
+    margin-left: 7.35rem;
+}
+
+#buttonD {
+    margin-left: 7.2rem;
+}
+
+#buttonE {
+    margin-left: 4.5rem;
 }
 
 .rotate {
@@ -105,9 +127,11 @@ hr {
     display: inline-block;
 }
 
-.upload {
+.upload, .password, .subscript, .support {
     display: inline-block;
 }
+
+
 
 @media (max-width: 1000px) {
     .card {
