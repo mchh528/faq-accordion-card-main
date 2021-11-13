@@ -138,12 +138,21 @@ hr {
     text-align: center; }
   .text {
     grid-column: 2;
-    margin-right: 2.5rem;
     border: 0;
     display: inline; }
   .toggle {
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-    margin-right: 2.2rem; }
+    margin-right: 2.5rem;
+    margin-bottom: 1.5rem; }
   hr {
-    width: 100%; } }
+    width: 100%;
+    margin-bottom: 1.5rem; }
+  #buttonA {
+    margin-left: 1px; }
+  #buttonB {
+    margin-left: 3px; }
+  #buttonC {
+    margin-left: 4.4rem; }
+  #buttonD {
+    margin-left: 4.2rem; }
+  #buttonE {
+    margin-left: 1.5rem; } }
