@@ -1,3 +1,5 @@
+let toggleList = document.getElementsByClassName("toggle");
+
 let button_one = document.getElementById("buttonA");
 let text_one = document.getElementById("textA");
 
@@ -69,7 +71,16 @@ function rotateButtonE() {
 }
 
 rotateButtonA();
+rotateButtonA();
+
 rotateButtonB();
+rotateButtonB();
+
 rotateButtonC();
+rotateButtonC();
+
 rotateButtonD();
+rotateButtonD();
+
+rotateButtonE();
 rotateButtonE();

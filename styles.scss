@@ -115,6 +115,10 @@ h1 {
     margin-right: 2rem;
 }
 
+.inner_text {
+    padding-left: 1rem;
+}
+
 hr {
     width: 90%;
     border: 0;
@@ -151,7 +155,7 @@ hr {
         background-size: cover;
         width: 300px;
         left: 15%;
-        top: 0;
+        top: -170px;
     }
 
     .woman {
